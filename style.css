@@ -1,0 +1,105 @@
+.gym-link {
+  color: black !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+.gym-link:hover {
+  color: #0056b3 !important;
+  transform: scale(1.5);
+}
+.space{
+  margin: 100px;
+}
+.space2{
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:30px;
+}
+body{
+  background-image:url('https://cdn.glitch.global/dcd72e49-6fe3-4d33-8ca2-9322e810efc0/3d-black-texture-geometric-black-texture-black-abstraction-background-3d-abstraction-black-texture-creative-black-background.jpg?v=1691597898411');
+}
+.spacing-between{
+  margin-top:10px;
+}
+
+.legal-Links{
+  color: white;
+  text-align: center;
+  margin:10px;
+}
+
+.legal-Links:hover{
+  color: white;
+}
+
+a:hover{
+  transform:scale(1.1);
+}
+.cardheight{
+  height: 200px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f4f4f4;
+}
+.card-body {
+  padding: 20px;
+  margin: 10px;
+}
+.card-text {
+  font-size: 18px;
+  color: #333333;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+}
+
+.call-to-action {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5555;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #e50000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.card:hover { transform: scale(1.1); /* 10% bigger than the original size */ }
+.expandroom{
+  margin-bottom: 10px;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Don't Contact Us - GymFinderSF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"
+    />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="https://cdn.glitch.global/dcd72e49-6fe3-4d33-8ca2-9322e810efc0/GymFinderSF-logos.jpeg?v=1691612761950"
+    />
+    <link href="style.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html"
+          ><img
+            id="gymfinderSF-logo"
+            src="https://cdn.glitch.global/dcd72e49-6fe3-4d33-8ca2-9322e810efc0/GymFinderSF-logos.jpeg?v=1691612761950"
+            alt="GymFinderSF Logo"
+            draggable="false"
+            height="40"
+        /></a>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex align-items-center w-100 form-search">
+            <div class="input-group">
+              <input
+                id="myinput"
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search By Gym Title"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Search By Gym Title'"
+                aria-label="Search"
+                autocomplete="off"
+                onkeyup="searchFunction()"
+              />
+            </div>
+            <a href="#!" class="text-white"
+              ><i class="fa fa-search ps-3"></i
+            ></a>
+          </form>
+
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item me-3">
+              <a class="nav-link d-flex align-items-center" href="form.html"
+                >Submit New Gym</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center me-3" href="contactus.html">
+                <i class="fas"></i> Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+<!-- Footer -->
+    <div class="space">
+  
+    </div>
+    
+  <section class="py-5">
+	<div class="container">
+		<div class="row justify-content-center text-center mb-2 mb-lg-4">
+			<div class="col-lg-8 col-xxl-7">
+				<span class="text-muted" >Want to talk?</span>
+				<h2 class="display-5 fw-bold mb-3" style="color:white;">Don't Contact Us</h2>
+				<p class="lead mb-0" style="color:white;">If for some reason you want to contact us, please HESITATE to contact us.</p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-10 col-lg-6">
+				<form>
+					<div class="row justify-content-center">
+						<div class="col-md-6">
+							<div class="mb-3">
+								<input class="form-control bg-light" placeholder="First name" type="text">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="mb-3">
+								<input class="form-control bg-light" placeholder="Last name" type="text">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="mb-3">
+								<textarea class="form-control bg-light" placeholder="Your message" rows="7"></textarea>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="d-grid">
+								<button class="btn btn-primary" type="submit">Send message</button>
+							</div>
+                 
+	
+						</div>
+          
+					</div>
+             
+	
+				</form>
+          
+			</div>
+		</div>
+	</div>
+ 
+</section>
+    
+ 
+    <div class="space">
+  
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4">
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://facebook.com"
+            role="button"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://google.com"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://instagram.com"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/juan-benitez-79b864259/"
+            role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://github.com"
+            role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="button" id="button" class="btn btn-outline-light mb-4">
+  Subscribe
+</button>
+
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Company</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="aboutus.html" class="text-white">About us</a>
+                </li>
+                <li>
+                  <a href="careers.html" class="text-white">Careers</a>
+                </li>
+                <li>
+                  <a href="bod.html" class="text-white">Board of Directors</a>
+                </li>
+                <li>
+                  <a href="contactus.html" class="text-white">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Resource</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Blog</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Release</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">What's new</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Community</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Customers</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Customer Support</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Join a Local User Group</a>
+                </li>
+               
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Partners</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">All Partner Programs</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Solutions Partner Program</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">App Partner Program</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Affiliate Program</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <nav
+        aria-label="Legalese and Help Links"
+        class="legal-Links"
+      >
+        <a
+          class="legal-Links"
+          href="legal.html"
+          title="Send Feedback "
+          >Send Feedback </a
+        ><a
+          class="legal-Links"
+          href="legal.html"
+          title="Privacy Policy"
+          >Privacy Policy</a
+        ><a
+          class="legal-Links"
+          href="legal.html"
+          title="California Consumer Privacy Statement"
+          >California Consumer Privacy Statement</a
+        ><br><a
+          class="legal-Links"
+          href="legal.html"
+          title="Do Not Sell or Share My Personal Information"
+          >Do Not Sell or Share My Personal Information</a
+        ><a
+          class="legal-Links"
+          href="legal.html"
+          title="Terms &amp; Conditions"
+          >Terms &amp; Conditions</a
+        ><a class="legal-Links" href="legal.html" title="FAQs"
+          >FAQs</a
+        >
+      </nav>
+
+      <!-- -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright: GymFinderSF
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Link to my own JavaScript file -->
+    <script src="script2.js"></script>
+
+    <!-- Scripts needed for some Bootstrap components -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

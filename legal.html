@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Legal - GymFinderSF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"
+    />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="https://cdn.glitch.global/dcd72e49-6fe3-4d33-8ca2-9322e810efc0/GymFinderSF-logos.jpeg?v=1691612761950"
+    />
+    <link href="style2.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html"
+          ><img
+            id="gymfinderSF-logo"
+            src="https://cdn.glitch.global/dcd72e49-6fe3-4d33-8ca2-9322e810efc0/GymFinderSF-logos.jpeg?v=1691612761950"
+            alt="GymFinderSF Logo"
+            draggable="false"
+            height="40"
+        /></a>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex align-items-center w-100 form-search">
+            <div class="input-group">
+              <input
+                id="myinput"
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search By Gym Title"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Search By Gym Title'"
+                aria-label="Search"
+                autocomplete="off"
+                onkeyup="searchFunction()"
+              />
+            </div>
+            <a href="#!" class="text-white"
+              ><i class="fa fa-search ps-3"></i
+            ></a>
+          </form>
+
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item me-3">
+              <a class="nav-link d-flex align-items-center" href="form.html"
+                >Submit New Gym</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center me-3"
+                href="contactus.html"
+              >
+                <i class="fas"></i> Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Footer -->
+    <div class="container">
+      <h1>Legal Stuff</h1>
+      <p>
+        This is a page with legal stuff like terms and conditions, FAQs, and
+        that stuff.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo at
+        nisi ullamcorper consequat. Fusce vitae lorem quis nisl tincidunt
+        tincidunt. Quisque id lacus sit amet nunc sagittis aliquet. Donec quis
+        augue vitae quam ullamcorper lacinia. Morbi vel leo id nisi malesuada
+        aliquet. Phasellus ut eros sed nisi condimentum luctus.
+      </p>
+      <h2>Terms and Conditions</h2>
+      <p>
+        By using this website, you agree to the following terms and conditions:
+      </p>
+      <ul>
+        <li>
+          You are responsible for your own actions and the consequences of your
+          actions on this website.
+        </li>
+        <li>
+          You will not use this website for any illegal or unethical purposes.
+        </li>
+        <li>
+          You will not violate the rights of any third parties, including
+          intellectual property rights, privacy rights, or contractual rights.
+        </li>
+        <li>
+          You will not post any content that is obscene, defamatory, hateful,
+          harassing, threatening, or otherwise objectionable.
+        </li>
+        <li>
+          You will not transmit any viruses, malware, or other harmful code
+          through this website.
+        </li>
+        <li>
+          You will not attempt to hack, disrupt, or damage this website or its
+          servers.
+        </li>
+        <li>
+          We reserve the right to modify, suspend, or terminate your access to
+          this website at any time and for any reason without notice or
+          liability.
+        </li>
+        <li>
+          We reserve the right to change these terms and conditions at any time
+          and without notice. You are advised to review these terms and
+          conditions periodically.
+        </li>
+        <li>
+          These terms and conditions are governed by the laws of the United
+          States of America and the state of California. Any disputes arising
+          from or relating to these terms and conditions shall be subject to the
+          exclusive jurisdiction of the courts of California.
+        </li>
+      </ul>
+      <h2>FAQs</h2>
+      <p>
+        Here are some frequently asked questions and answers about this website:
+      </p>
+      <table class="“table" table-striped” border="“1”">
+        <thead>
+          <tr>
+            <th scope="“col”">Question</th>
+            <th scope="“col”">Answer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>What is the purpose of this website?</td>
+            <td>
+              This website is a gym finder that helps you locate the best gyms
+              in San Francisco based on your preferences and needs.
+            </td>
+          </tr>
+          <tr>
+            <td>How does this website work?</td>
+            <td>
+              This website uses a simple and user-friendly interface that allows
+              you to search for gyms by name, location, rating, or category. You
+              can also view the details, reviews, and photos of each gym and
+              compare them with others.
+            </td>
+          </tr>
+          <tr>
+            <td>What are the benefits of using this website?</td>
+            <td>
+              This website helps you save time and money by finding the most
+              suitable gym for you. You can also discover new and popular gyms
+              in San Francisco and join their community of fitness enthusiasts.
+            </td>
+          </tr>
+          <tr>
+            <td>How can I add a gym to this website?</td>
+            <td>
+              If you own or know a gym that is not listed on this website, you
+              can fill out a form by clicking on the “Submit New Gym” button at the
+              top of this page. We will review your submission and add it to
+              our database as soon as possible.
+            </td>
+          </tr>
+          <!-- You can add more rows here -->
+        </tbody>
+      </table>
+      <br>
+    </div>
+    <div class="container">
+      <!-- The rest of the content -->
+      <h2>Privacy Policy</h2>
+      <p>
+        This privacy policy explains how we collect, use, share, and protect
+        your personal information when you visit or use this website. Please
+        read this policy carefully before providing us with any personal
+        information.
+      </p>
+      <p>
+        By using this website, you consent to the collection and use of your
+        personal information as described in this policy. If you do not agree
+        with this policy, please do not use this website.
+      </p>
+      <p>
+        We may update this policy from time to time to reflect changes in our
+        data collection practices or the applicable laws and regulations. We
+        will notify you of any significant changes by posting a notice on this
+        website or by email. Your continued use of this website after such
+        changes constitutes your acceptance of the updated policy.
+      </p>
+      <h3>What information do we collect?</h3>
+      <p>
+        We may collect the following types of personal information from you when
+        you visit or use this website:
+      </p>
+      <ul>
+        <li>
+          Information that you provide voluntarily, such as your name, email
+          address, phone number, or other contact details, when you fill out a
+          form, subscribe to a newsletter, send us a message, or participate in
+          a survey or contest on this website.
+        </li>
+        <li>
+          Information that we collect automatically, such as your IP address,
+          browser type, device type, operating system, language preference,
+          referring URL, pages visited, time spent, and other web activity data,
+          when you access or use this website. We may use cookies, web beacons,
+          or other similar technologies to collect this information. You can
+          disable cookies in your browser settings, but some features of this
+          website may not function properly without them.
+        </li>
+        <li>
+          Information that we obtain from third parties, such as social media
+          platforms, advertising networks, analytics providers, or other service
+          providers that we work with to improve our website or offer you
+          relevant products or services. We may combine this information with
+          the information that we collect from you directly or automatically.
+        </li>
+      </ul>
+      <h3>How do we use your information?</h3>
+      <p>We may use your personal information for the following purposes:</p>
+      <ul>
+        <li>
+          To provide you with the products or services that you request or
+          purchase from us or our partners.
+        </li>
+        <li>
+          To communicate with you about your account, orders, transactions,
+          inquiries, feedback, or complaints.
+        </li>
+        <li>
+          To send you newsletters, promotions, offers, or other marketing
+          materials that may interest you. You can opt out of receiving these
+          communications at any time by following the unsubscribe link in the
+          email or contacting us at the address below.
+        </li>
+        <li>
+          To improve our website, products, services, or customer experience.
+        </li>
+        <li>
+          To analyze our website traffic, performance, user behavior,
+          preferences, trends, or interests.
+        </li>
+        <li>
+          To personalize our website content, ads, or recommendations based on
+          your profile, location, or browsing history.
+        </li>
+        <li>
+          To protect our website, business, users, or rights from fraud, abuse,
+          security breaches, legal claims, or other threats.
+        </li>
+        <li>
+          To comply with our legal obligations, policies, terms and conditions,
+          or requests from law enforcement or regulatory authorities.
+        </li>
+        <li>
+          To fulfill any other legitimate business purposes that are compatible
+          with this policy and your expectations.
+        </li>
+      </ul>
+      <h3>How do we share your information?</h3>
+      <p>
+        We may share your personal information with the following parties for
+        the purposes described above:
+      </p>
+      <ul>
+        <li>
+          Our affiliates and subsidiaries that provide us with support services
+          or help us operate our business.
+        </li>
+        <li>
+          Our partners and vendors that provide us with products or services
+          that you request or purchase from us or them.
+        </li>
+        <li>
+          Our service providers that perform functions on our behalf, such as
+          hosting, payment processing, analytics, marketing, email delivery,
+          customer service, security, data storage, data processing, data
+          backup, data destruction, data encryption, data anonymization, data
+          aggregation, data analysis, data visualization, data reporting, data
+          auditing, data monitoring, data testing, data quality assurance, data
+          enhancement, data enrichment, data verification, data validation, data
+          integration, data transformation, data migration, data extraction,
+          data loading, data modeling, data mining, data engineering, data
+          science, data governance, data compliance, data protection, data
+          breach notification, etc.
+        </li>
+        <li>
+          Our advertisers and advertising networks that display ads or deliver
+          targeted content to you on our website or other websites that you
+          visit.
+        </li>
+        <li>
+          Our social media platforms that allow you to connect or interact with
+          us or other users on their networks.
+        </li>
+        <li>
+          Our research partners that conduct surveys, studies, experiments, or
+          tests with your participation or consent.
+        </li>
+        <li>
+          Our professional advisors that provide us with legal, accounting, tax,
+          or other consulting services.
+        </li>
+        <li>
+          Our regulators, law enforcement, or other authorities that require us
+          to disclose your information for legal or compliance reasons.
+        </li>
+        <li>
+          Our successors, assignees, or transferees that acquire our business or
+          assets, in whole or in part, through a merger, acquisition,
+          reorganization, sale, bankruptcy, or other transaction.
+        </li>
+        <li>
+          Any other parties that you authorize or consent to share your
+          information with.
+        </li>
+      </ul>
+      <h3>How do we protect your information?</h3>
+      <p>
+        We take reasonable measures to protect your personal information from
+        unauthorized access, use, disclosure, modification, or destruction. We
+        use industry-standard technical and organizational safeguards, such as
+        encryption, firewalls, access control, authentication, backup, audit,
+        monitoring, testing, quality assurance, etc. However, no method of
+        transmission or storage is 100% secure. Therefore, we cannot guarantee
+        the absolute security of your information. You are also responsible for
+        protecting your information by keeping your account credentials and
+        devices safe and secure.
+      </p>
+      <h3>What are your rights and choices?</h3>
+      <p>
+        You have the following rights and choices regarding your personal
+        information:
+      </p>
+      <ul>
+        <li>
+          You can access, review, update, correct, or delete your personal
+          information that we hold by logging into your account or contacting us
+          at the address below.
+        </li>
+        <li>
+          You can opt out of receiving marketing communications from us by
+          following the unsubscribe link in the email or contacting us at the
+          address below.
+        </li>
+        <li>
+          You can disable cookies in your browser settings or use a browser
+          plugin to block third-party cookies. However, some features of this
+          website may not function properly without cookies.
+        </li>
+        <li>
+          You can adjust your privacy settings on your social media platforms to
+          control how they share your information with us or other parties.
+        </li>
+        <li>
+          You can withdraw your consent to our data collection practices at any
+          time by closing your account or contacting us at the address below.
+          However, this may affect your ability to use our website, products, or
+          services.
+        </li>
+        <li>
+          You can exercise any other rights that are granted to you by the
+          applicable laws and regulations in your jurisdiction, such as the
+          right to request a copy, portability, restriction, objection, erasure,
+          or anonymization of your personal information. You can also file a
+          complaint with the relevant data protection authority if you believe
+          that we have violated your privacy rights. You can contact us at the
+          address below to exercise these rights or learn more about them.
+        </li>
+      </ul>
+      <h3>How long do we keep your information?</h3>
+      <p>
+        We keep your personal information for as long as necessary to fulfill
+        the purposes for which we collected it or as required by law. We may
+        retain some of your information even after you close your account or
+        delete your information if we need to comply with our legal obligations,
+        resolve disputes, enforce our agreements, protect our interests, prevent
+        fraud, maintain security, conduct audits, preserve evidence, support
+        business operations, facilitate data analysis, improve our website,
+        products, services, or customer experience, etc.
+      </p>
+      <h3>How do we transfer your information?</h3>
+      <p>
+        We may transfer your personal information to other countries or regions
+        where we or our service providers operate. These countries or regions
+        may have different data protection laws and standards than those in your
+        country of residence. We will take appropriate steps to ensure that your
+        personal information is treated securely and in accordance with this
+        policy and the applicable laws and regulations. By using this website,
+        you consent to the transfer of your personal information to these
+        countries or regions.
+      </p>
+      <h3>How do we handle children's information?</h3>
+      <p>
+        This website is not intended for children under the age of 13. We do not
+        knowingly collect, use, share, or disclose any personal information from
+        children under the age of 13 without verifiable parental consent. If we
+        become aware that we have collected any personal information from a
+        child under the age of 13 without such consent, we will delete it as
+        soon as possible. If you are a parent or guardian and you believe that
+        your child has provided us with any personal information without your
+        consent, please contact us at the address below.
+      </p>
+    </div>
+
+    <div class="back">
+      <p>
+        <a
+          href="index.html"
+          class="btn btn-primary"
+          style="display: flex; justify-content: center"
+          >Back</a
+        >
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4">
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://facebook.com"
+            role="button"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://google.com"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://instagram.com"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/juan-benitez-79b864259/"
+            role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://github.com"
+            role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Company</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="aboutus.html" class="text-white">About us</a>
+                </li>
+                <li>
+                  <a href="careers.html" class="text-white">Careers</a>
+                </li>
+                <li>
+                  <a href="bod.html" class="text-white">Board of Directors</a>
+                </li>
+                <li>
+                  <a href="contactus.html" class="text-white">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Resource</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Blog</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Release</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">What's new</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Community</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Customers</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Customer Support</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Join a Local User Group</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Partners</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">All Partner Programs</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Solutions Partner Program</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">App Partner Program</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Affiliate Program</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <nav aria-label="Legalese and Help Links">
+        <a class="legal-Links" href="legal.html" title="Send Feedback "
+          >Send Feedback </a
+        ><a class="legal-Links" href="legal.html" title="Privacy Policy"
+          >Privacy Policy</a
+        ><a
+          class="legal-Links"
+          href="legal.html"
+          title="California Consumer Privacy Statement"
+          >California Consumer Privacy Statement</a
+        >
+      </nav>
+      <nav aria-label="Legalese and Help Links">
+        <a
+          class="legal-Links"
+          href="legal.html"
+          title="Do Not Sell or Share My Personal Information"
+          >Do Not Sell or Share My Personal Information</a
+        ><a class="legal-Links" href="legal.html" title="Terms &amp; Conditions"
+          >Terms &amp; Conditions</a
+        ><a class="legal-Links" href="legal.html" title="FAQs">FAQs</a>
+      </nav>
+
+      <!-- -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright: GymFinderSF
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Link to my own JavaScript file -->
+    <script src="script2.js"></script>
+
+    <!-- Scripts needed for some Bootstrap components -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.gym-link {
+  color: black !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+.gym-link:hover {
+  color: #0056b3 !important;
+  transform: scale(1.5);
+}
+.space{
+  margin: 100px;
+}
+.space2{
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:30px;
+}
+body{
+  background-color: #080808;
+}
+.spacing-between{
+  margin-top:10px;
+}
+
+.legal-Links{
+  color: white;
+  text-align: center;
+  margin:10px;
+}
+
+.legal-Links:hover{
+  color: white;
+}
+
+a:hover{
+  transform:scale(1.1);
+}
+.cardheight{
+  height: 180px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f4f4f4;
+}
+.card-body {
+  padding: 20px;
+  margin: 10px;
+}
+.card-text {
+  font-size: 18px;
+  color: #333333;
+}
+.container {
+  color: white;
+}
+
